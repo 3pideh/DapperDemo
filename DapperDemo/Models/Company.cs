@@ -8,7 +8,6 @@ namespace DapperDemo.Models
 {
     public class Company
     {
-        [Key]
         public int CompanyId { get; set; }
         public string Name { get; set; }
         public string City { get; set; }
